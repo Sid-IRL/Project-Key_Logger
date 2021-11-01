@@ -33,6 +33,16 @@ software, which scans for software based keyloggers and can
 be more effective than general anti spyware and application whitelisting which only allows authorized programs to run on a system for hardware
 based keyloggers. 
 
+# Prerequisite
+
+The Pynput Library helps us in controlling and monitoring the input devices such as mouse and keyboard. In this project the focus is on the recording of Keys typed on the keyboard. 
+
+```
+import pynput
+from pynput.keyboard import Key, Listener
+```
+The pynput.keyboard contains all the classes for controlling and monitoring the keyboard.
+
 # Screenshots of Output: 
 In the following Images you can see that any keys pressed on the keyboard is being monitored by the program and is recorded in the terminal and also a seperate Text file which can be accesed later . There is also another method where the keys typed by the user can be monitoreed and to sent via mail without the users knowledge to the infiltrators Inbox.
 
