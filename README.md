@@ -44,7 +44,7 @@ from pynput.keyboard import Key, Listener
 The pynput.keyboard contains all the classes for controlling and monitoring the keyboard.
 
 # Screenshots of Output: 
-In the following Images you can see that any keys pressed on the keyboard is being monitored by the program and is recorded in the terminal and also a seperate Text file which can be accesed later . There is also another method where the keys typed by the user can be monitoreed and to sent via mail without the users knowledge to the infiltrators Inbox.
+In the following Images you can see that any keys pressed on the keyboard is being monitored by the program and is recorded in the terminal and also a seperate Text file( In this code the file would be named as "KeysLOGGED.txt" ) which can be accesed later . There is also another method where the keys typed by the user can be monitoreed and to sent via mail without the users knowledge to the infiltrators Inbox.
 
 As you can see , the text being typed in the notepad was recorded and displayed in the terminal 
 ![Image 2](https://user-images.githubusercontent.com/85756634/139627945-d58f58b0-168a-4c2f-990e-676d1839364f.jpg)
